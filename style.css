@@ -3,15 +3,17 @@ body {
     flex-direction: column;
     padding: 0px;
     margin: 0px;
+    font-size: 26px;
+    font-family: 'Roboto';
 }
 
-
+/* intro Section */
 .intro {
     display: flex;
     flex-direction: column;
     flex-basis: 500px; 
-    background-color: #333;
-    padding: 20px; 
+    background-color: #1F2937;
+    padding: 0 20px 20px 20px ; 
 }
 
 .header {
@@ -19,6 +21,7 @@ body {
     justify-content: space-between;
     align-items: center;
     color: white;
+    font-size: 24px;
 }
 
 /* Logo Styling */
@@ -53,9 +56,9 @@ nav ul li a {
     display: flex;
     text-align: center;
     padding: 40px 20px;
-    justify-content: space-between;
+    justify-content: start;
+    gap: 15px;
 }
-
 
 .hero-subsection img {
     width: 30%;
@@ -81,7 +84,6 @@ nav ul li a {
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
-    cursor: pointer;
     transition: background-color 0.3s, transform 0.2s;
 }
 
@@ -99,14 +101,18 @@ nav ul li a {
 
 .types-subsection .card {
     margin: 10px;
-    border: 1px solid #ccc;
+    /* border: 1px solid #ccc; */
     padding: 10px;
     border-radius: 5px;
     text-align: center;
 }
 
-.types-subsection .card img {
-    max-width: 100px;
+.types-subsection ul li img {
+    max-width: 300px;
     height: auto;
     margin-bottom: 5px;
+    border: 3px solid hsl(229, 84%, 37%); 
+    border-radius: 10px;
 }
+
+/*  */
