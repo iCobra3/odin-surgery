@@ -126,10 +126,48 @@ nav ul li a {
     font-weight: lighter;
     font-style: italic;
     padding: 20px;
+    margin-bottom:20px;
   }
   
   .author {
     text-align: end;
     font-weight: bold;
   }
-  
+
+  /* styling of add section */
+  .ad-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+  }
+
+.ad-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    background-color:#3882F6;
+    border-radius: 15px;
+}
+
+.ad-card button{
+    background-color:#3882F6;
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    /* border: none; */
+    border-color: white;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.ad-card p{
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    /* border: none; */
+    border-color: white;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.2s;
+}
