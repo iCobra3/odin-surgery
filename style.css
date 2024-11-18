@@ -1,20 +1,112 @@
-body{
+body {
     display: flex;
     flex-direction: column;
+    padding: 0px;
+    margin: 0px;
 }
 
-.logo{
 
-        display: flex;
-        justify-content: center;  /* Center logo horizontally */
-        align-items: center;      /* Center logo vertically */
-        height: 120px;            /* Set container height */
-        margin: 20px 0;           /* Add spacing around the container */
+.intro {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 500px; 
+    background-color: #333;
+    padding: 20px; 
 }
 
-.logo img {
-    width: 150px;             /* Set a fixed width for the logo */
-    height: auto;             /* Maintain the aspect ratio */
-    max-width: 100%;          /* Ensure logo is responsive within its container */
-  }
-  
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+/* Logo Styling */
+.header .logo img {
+    width: 150px;
+    height: auto;
+    max-width: 100%;
+}
+
+/* Navigation Styling */
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+
+.hero-subsection {
+    display: flex;
+    text-align: center;
+    padding: 40px 20px;
+    justify-content: space-between;
+}
+
+
+.hero-subsection img {
+    width: 30%;
+    max-width: 300px;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.brief {
+    font-size: 18px;
+    line-height: 1.6;
+    color: white;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: start;
+}
+
+.brief button {
+    background-color: #007BFF;
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.types-subsection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.types-subsection ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+.types-subsection .card {
+    margin: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.types-subsection .card img {
+    max-width: 100px;
+    height: auto;
+    margin-bottom: 5px;
+}
