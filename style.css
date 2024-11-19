@@ -3,17 +3,16 @@ body {
     flex-direction: column;
     padding: 0px;
     margin: 0px;
-    font-size: 26px;
     font-family: 'Roboto';
 }
-
 /* intro Section */
 .intro {
     display: flex;
     flex-direction: column;
     flex-basis: 500px; 
     background-color: #1F2937;
-    padding: 0 20px 20px 20px ; 
+    /* setting some side paddings */
+    /* padding: 0 100px;  */
 }
 
 .header {
@@ -24,14 +23,13 @@ body {
     font-size: 24px;
 }
 
-/* Logo Styling */
 .header .logo img {
     width: 150px;
     height: auto;
     max-width: 100%;
+    border-radius: 15px;
 }
 
-/* Navigation Styling */
 nav ul {
     display: flex;
     list-style: none;
@@ -58,6 +56,20 @@ nav ul li a {
     padding: 40px 20px;
     justify-content: start;
     gap: 15px;
+
+}
+.question {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    margin: 0;
+    padding: 0;
+}
+.answer{
+    font-size: 18px;
+    color: #F9FAF8;
+    font-weight:0;
+    margin-top: 0;
 }
 
 .hero-subsection img {
@@ -93,6 +105,12 @@ nav ul li a {
     justify-content: center;
     align-items: center;
     margin-bottom: 40px;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    padding: 0 40px; 
+    flex-wrap: wrap;
+
 }
 .types-subsection ul {
     display: flex;
@@ -106,6 +124,10 @@ nav ul li a {
     padding: 10px;
     border-radius: 5px;
     text-align: center;
+    font-size: 22px;
+    /* color: #F9FAF8; */
+    font-weight:0;
+    
 }
 
 .types-subsection ul li img {
@@ -125,7 +147,8 @@ nav ul li a {
     font-size: 36px;
     font-weight: lighter;
     font-style: italic;
-    padding: 20px;
+    /* padding: 20px */    padding: 0 40px; 
+
     margin-bottom:20px;
   }
   
@@ -140,6 +163,7 @@ nav ul li a {
     justify-content: center;
     align-items: center;
     padding: 30px;
+    margin-bottom: 20px;
   }
 
 .ad-card{
@@ -156,18 +180,33 @@ nav ul li a {
     color: white;
     font-size: 16px;
     padding: 10px 20px;
-    /* border: none; */
+    border-width: 3;
     border-color: white;
     border-radius: 5px;
-    transition: background-color 0.3s, transform 0.2s;
 }
 
-.ad-card p{
+.text{
     color: white;
-    font-size: 16px;
-    padding: 10px 20px;
+    font-size: 13px;
+    padding: 10px;
     /* border: none; */
+    margin: 0;
     border-color: white;
+    font-weight: 200;
     border-radius: 5px;
     transition: background-color 0.3s, transform 0.2s;
+    
+}
+.bold-question{
+    font-weight: 700;
+    font-size: 20px;
+}
+  /* styling of copyrights section */
+.copyright-section{
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto';
 }
